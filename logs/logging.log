@@ -91,3 +91,805 @@ Source-Age: 0
 [2025-07-24 14:01:27,634: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2025-07-28 13:08:59,236: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:08:59,243: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:08:59,262: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:08:59,264: INFO: common: created directory at: artifacts]
+[2025-07-28 13:08:59,266: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-28 13:15:05,241: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:15:05,245: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:15:05,250: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:15:05,253: INFO: common: created directory at: artifacts]
+[2025-07-28 13:15:05,254: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-28 13:17:29,238: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:17:29,241: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:17:29,247: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-28 13:17:29,249: INFO: common: created directory at: artifacts]
+[2025-07-28 13:17:29,251: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-28 13:29:46,293: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-28 13:29:46,300: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:29:46,303: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:29:46,303: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:29:46,308: INFO: common: created directory at: artifacts]
+[2025-07-28 13:29:46,310: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-28 13:29:46,311: INFO: data_ingestion: File already exists]
+[2025-07-28 13:29:46,346: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-28 13:29:46,346: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-28 13:29:46,354: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:29:46,354: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:29:46,354: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:29:46,354: INFO: common: created directory at: artifacts]
+[2025-07-28 13:29:46,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-28 13:29:46,354: INFO: data_ingestion: File already exists]
+[2025-07-28 13:29:46,361: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-28 13:49:07,728: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-28 13:49:07,732: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:49:07,732: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:49:07,738: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:49:07,738: INFO: common: created directory at: artifacts]
+[2025-07-28 13:49:07,740: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-28 13:49:07,740: INFO: data_ingestion: File already exists]
+[2025-07-28 13:49:07,743: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-28 13:49:07,743: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-28 13:49:07,750: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:49:07,750: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:49:07,755: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:49:07,755: INFO: common: created directory at: artifacts]
+[2025-07-28 13:49:07,757: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-28 13:49:07,757: ERROR: main: 'DataValidation' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 23, in <module>
+    obj.initiate_data_validation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\data_validation_pipeline.py", line 17, in initiate_data_validation
+    data_ingestion.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2025-07-28 13:50:24,894: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-28 13:50:24,901: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:50:24,904: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:50:24,908: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:50:24,911: INFO: common: created directory at: artifacts]
+[2025-07-28 13:50:24,912: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-28 13:50:24,914: INFO: data_ingestion: File already exists]
+[2025-07-28 13:50:24,915: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-28 13:50:24,915: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-28 13:50:24,927: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:50:24,930: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:50:24,930: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-28 13:50:24,935: INFO: common: created directory at: artifacts]
+[2025-07-28 13:50:24,937: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-28 13:50:24,996: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 12:41:22,923: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-29 12:41:22,967: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-29 12:41:22,996: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='UTF-8'>: loaded successfully]
+[2025-07-29 12:41:23,003: INFO: common: created directory at: artifacts]
+[2025-07-29 12:41:23,007: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-29 12:41:23,444: INFO: 1522456456: Splited data into training and test sets]
+[2025-07-29 12:41:23,446: INFO: 1522456456: (1199, 12)]
+[2025-07-29 12:41:23,448: INFO: 1522456456: (400, 12)]
+[2025-07-29 12:50:34,714: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-29 12:50:34,720: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,722: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,727: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,727: INFO: common: created directory at: artifacts]
+[2025-07-29 12:50:34,729: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 12:50:34,729: INFO: data_ingestion: File already exists]
+[2025-07-29 12:50:34,788: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 12:50:34,788: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-29 12:50:34,793: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,796: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,798: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,798: INFO: common: created directory at: artifacts]
+[2025-07-29 12:50:34,798: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 12:50:34,842: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 12:50:34,845: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-29 12:50:34,849: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,849: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,853: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 12:50:34,853: INFO: common: created directory at: artifacts]
+[2025-07-29 12:50:34,857: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-29 12:50:34,890: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-29 12:50:34,897: INFO: data_transformation: (1199, 12)]
+[2025-07-29 12:50:34,897: INFO: data_transformation: (400, 12)]
+[2025-07-29 12:50:34,897: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:01:19,606: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-29 13:01:19,616: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,621: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,625: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,627: INFO: common: created directory at: artifacts]
+[2025-07-29 13:01:19,629: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 13:01:19,629: INFO: data_ingestion: File already exists]
+[2025-07-29 13:01:19,639: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:01:19,641: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-29 13:01:19,647: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,649: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,652: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,654: INFO: common: created directory at: artifacts]
+[2025-07-29 13:01:19,654: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 13:01:19,712: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:01:19,713: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-29 13:01:19,724: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,728: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,736: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,739: INFO: common: created directory at: artifacts]
+[2025-07-29 13:01:19,748: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-29 13:01:19,822: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-29 13:01:19,822: INFO: data_transformation: (1199, 12)]
+[2025-07-29 13:01:19,822: INFO: data_transformation: (400, 12)]
+[2025-07-29 13:01:19,822: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:01:19,822: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-29 13:01:19,843: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,847: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,857: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:01:19,859: INFO: common: created directory at: artifacts]
+[2025-07-29 13:01:19,862: ERROR: main: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 48, in <module>
+    data_ingestion.initiate_model_training()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_training_pipeline.py", line 14, in initiate_model_training
+    model_trainer_config = config.get_model_trainer_config()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\config\configuration.py", line 52, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2025-07-29 13:04:51,133: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-29 13:04:51,157: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,169: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,194: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,199: INFO: common: created directory at: artifacts]
+[2025-07-29 13:04:51,201: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-29 13:04:51,201: INFO: data_ingestion: File already exists]
+[2025-07-29 13:04:51,207: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:04:51,214: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-29 13:04:51,221: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,224: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,224: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,230: INFO: common: created directory at: artifacts]
+[2025-07-29 13:04:51,230: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-29 13:04:51,272: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:04:51,272: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-29 13:04:51,278: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,280: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,284: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,285: INFO: common: created directory at: artifacts]
+[2025-07-29 13:04:51,287: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-29 13:04:51,351: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-29 13:04:51,351: INFO: data_transformation: (1199, 12)]
+[2025-07-29 13:04:51,351: INFO: data_transformation: (400, 12)]
+[2025-07-29 13:04:51,355: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-29 13:04:51,355: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-29 13:04:51,366: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,368: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,376: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-29 13:04:51,376: INFO: common: created directory at: artifacts]
+[2025-07-29 13:04:51,382: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-29 13:04:51,470: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:41:06,459: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-30 13:41:06,501: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,529: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,561: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,561: INFO: common: created directory at: artifacts]
+[2025-07-30 13:41:06,565: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 13:41:06,567: INFO: data_ingestion: File already exists]
+[2025-07-30 13:41:06,617: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:41:06,617: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-30 13:41:06,633: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,642: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,644: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,662: INFO: common: created directory at: artifacts]
+[2025-07-30 13:41:06,665: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-30 13:41:06,729: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:41:06,729: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-30 13:41:06,739: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,744: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,754: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,756: INFO: common: created directory at: artifacts]
+[2025-07-30 13:41:06,760: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-30 13:41:06,820: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-30 13:41:06,820: INFO: data_transformation: (1199, 12)]
+[2025-07-30 13:41:06,820: INFO: data_transformation: (400, 12)]
+[2025-07-30 13:41:06,820: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:41:06,825: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-30 13:41:06,836: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,839: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,849: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,854: INFO: common: created directory at: artifacts]
+[2025-07-30 13:41:06,856: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-30 13:41:06,946: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:41:06,956: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-30 13:41:06,961: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,965: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,973: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:41:06,975: INFO: common: created directory at: artifacts]
+[2025-07-30 13:41:06,978: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-30 13:41:10,391: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-30 13:41:16,506: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 66, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\sklearn\__init__.py", line 426, in log_model
+    return Model.log(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\models\model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-30 13:51:56,398: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-30 13:51:56,402: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,403: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,405: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,405: INFO: common: created directory at: artifacts]
+[2025-07-30 13:51:56,406: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 13:51:56,406: INFO: data_ingestion: File already exists]
+[2025-07-30 13:51:56,408: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:51:56,408: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-30 13:51:56,413: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,414: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,416: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,416: INFO: common: created directory at: artifacts]
+[2025-07-30 13:51:56,416: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-30 13:51:56,451: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:51:56,451: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-30 13:51:56,457: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,459: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,464: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,467: INFO: common: created directory at: artifacts]
+[2025-07-30 13:51:56,469: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-30 13:51:56,518: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-30 13:51:56,519: INFO: data_transformation: (1199, 12)]
+[2025-07-30 13:51:56,519: INFO: data_transformation: (400, 12)]
+[2025-07-30 13:51:56,519: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:51:56,519: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-30 13:51:56,523: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,525: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,526: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,527: INFO: common: created directory at: artifacts]
+[2025-07-30 13:51:56,528: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-30 13:51:56,602: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-30 13:51:56,602: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-30 13:51:56,610: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,614: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,621: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 13:51:56,624: INFO: common: created directory at: artifacts]
+[2025-07-30 13:51:56,626: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-30 13:51:58,917: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-30 13:52:05,690: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 66, in log_into_mlflow
+    mlflow.sklearn.log_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\sklearn\__init__.py", line 426, in log_model
+    return Model.log(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\models\model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-30 14:01:21,680: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-30 14:01:21,680: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,697: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,700: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,701: INFO: common: created directory at: artifacts]
+[2025-07-30 14:01:21,701: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 14:01:21,702: INFO: data_ingestion: File already exists]
+[2025-07-30 14:01:21,707: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:01:21,707: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-30 14:01:21,711: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,712: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,714: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,714: INFO: common: created directory at: artifacts]
+[2025-07-30 14:01:21,719: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-30 14:01:21,754: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:01:21,756: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-30 14:01:21,761: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,763: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,768: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,770: INFO: common: created directory at: artifacts]
+[2025-07-30 14:01:21,771: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-30 14:01:21,800: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-30 14:01:21,800: INFO: data_transformation: (1199, 12)]
+[2025-07-30 14:01:21,800: INFO: data_transformation: (400, 12)]
+[2025-07-30 14:01:21,801: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:01:21,802: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-30 14:01:21,807: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,809: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,814: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,816: INFO: common: created directory at: artifacts]
+[2025-07-30 14:01:21,816: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-30 14:01:21,944: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:01:21,944: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-30 14:01:21,956: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,960: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,967: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:01:21,969: INFO: common: created directory at: artifacts]
+[2025-07-30 14:01:21,971: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-30 14:01:23,209: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-30 14:01:25,387: ERROR: main: log_model() got an unexpected keyword argument 'name']
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 66, in log_into_mlflow
+    mlflow.sklearn.log_model(
+TypeError: log_model() got an unexpected keyword argument 'name'
+[2025-07-30 14:02:32,397: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-30 14:02:32,402: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,402: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,407: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,408: INFO: common: created directory at: artifacts]
+[2025-07-30 14:02:32,408: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 14:02:32,409: INFO: data_ingestion: File already exists]
+[2025-07-30 14:02:32,421: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:02:32,421: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-30 14:02:32,430: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,435: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,443: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,445: INFO: common: created directory at: artifacts]
+[2025-07-30 14:02:32,445: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-30 14:02:32,486: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:02:32,486: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-30 14:02:32,490: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,490: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,494: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,495: INFO: common: created directory at: artifacts]
+[2025-07-30 14:02:32,496: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-30 14:02:32,520: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-30 14:02:32,520: INFO: data_transformation: (1199, 12)]
+[2025-07-30 14:02:32,520: INFO: data_transformation: (400, 12)]
+[2025-07-30 14:02:32,521: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:02:32,521: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-30 14:02:32,526: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,527: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,529: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,530: INFO: common: created directory at: artifacts]
+[2025-07-30 14:02:32,530: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-30 14:02:32,604: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:02:32,604: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-30 14:02:32,605: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,613: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,618: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:02:32,618: INFO: common: created directory at: artifacts]
+[2025-07-30 14:02:32,621: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-30 14:02:33,999: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-30 14:02:36,231: ERROR: main: log_model() got an unexpected keyword argument 'name']
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 66, in log_into_mlflow
+    mlflow.sklearn.log_model(
+TypeError: log_model() got an unexpected keyword argument 'name'
+[2025-07-30 14:06:55,702: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-30 14:06:55,712: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,724: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,739: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,741: INFO: common: created directory at: artifacts]
+[2025-07-30 14:06:55,746: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-30 14:06:55,747: INFO: data_ingestion: File already exists]
+[2025-07-30 14:06:55,763: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:06:55,765: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-30 14:06:55,785: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,791: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,804: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,806: INFO: common: created directory at: artifacts]
+[2025-07-30 14:06:55,809: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-30 14:06:55,898: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:06:55,898: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-30 14:06:55,898: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,906: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,908: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,913: INFO: common: created directory at: artifacts]
+[2025-07-30 14:06:55,914: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-30 14:06:55,957: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-30 14:06:55,957: INFO: data_transformation: (1199, 12)]
+[2025-07-30 14:06:55,958: INFO: data_transformation: (400, 12)]
+[2025-07-30 14:06:55,958: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:06:55,958: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-30 14:06:55,967: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,971: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,980: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:55,982: INFO: common: created directory at: artifacts]
+[2025-07-30 14:06:55,986: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-30 14:06:56,106: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-30 14:06:56,106: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-30 14:06:56,106: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:56,120: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:56,128: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-30 14:06:56,129: INFO: common: created directory at: artifacts]
+[2025-07-30 14:06:56,134: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-30 14:06:59,321: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-30 14:07:05,435: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\sklearn\__init__.py", line 426, in log_model
+    return Model.log(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\models\model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-31 12:24:54,901: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-31 12:24:54,934: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:54,965: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,022: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,022: INFO: common: created directory at: artifacts]
+[2025-07-31 12:24:55,022: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-31 12:24:55,022: INFO: data_ingestion: File already exists]
+[2025-07-31 12:24:55,158: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:24:55,158: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-31 12:24:55,174: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,174: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,190: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,206: INFO: common: created directory at: artifacts]
+[2025-07-31 12:24:55,222: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-31 12:24:55,341: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:24:55,342: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-31 12:24:55,359: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,362: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,385: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,385: INFO: common: created directory at: artifacts]
+[2025-07-31 12:24:55,396: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-31 12:24:55,509: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-31 12:24:55,509: INFO: data_transformation: (1199, 12)]
+[2025-07-31 12:24:55,517: INFO: data_transformation: (400, 12)]
+[2025-07-31 12:24:55,517: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:24:55,517: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-31 12:24:55,533: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,533: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,557: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,579: INFO: common: created directory at: artifacts]
+[2025-07-31 12:24:55,583: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-31 12:24:55,759: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:24:55,759: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-31 12:24:55,767: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,767: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,783: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:24:55,788: INFO: common: created directory at: artifacts]
+[2025-07-31 12:24:55,800: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-31 12:25:02,753: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-31 12:25:09,691: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\sklearn\__init__.py", line 426, in log_model
+    return Model.log(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\models\model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-31 12:33:27,889: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-31 12:33:27,901: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:27,901: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:27,911: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:27,911: INFO: common: created directory at: artifacts]
+[2025-07-31 12:33:27,911: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-31 12:33:27,915: INFO: data_ingestion: File already exists]
+[2025-07-31 12:33:27,923: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:33:27,925: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-31 12:33:27,935: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:27,937: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:27,945: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:27,947: INFO: common: created directory at: artifacts]
+[2025-07-31 12:33:27,948: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-31 12:33:27,988: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:33:27,988: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-31 12:33:27,995: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,002: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,006: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,008: INFO: common: created directory at: artifacts]
+[2025-07-31 12:33:28,010: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-31 12:33:28,059: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-31 12:33:28,063: INFO: data_transformation: (1199, 12)]
+[2025-07-31 12:33:28,064: INFO: data_transformation: (400, 12)]
+[2025-07-31 12:33:28,064: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:33:28,064: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-31 12:33:28,074: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,074: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,081: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,084: INFO: common: created directory at: artifacts]
+[2025-07-31 12:33:28,084: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-31 12:33:28,145: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:33:28,145: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-31 12:33:28,165: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,169: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,172: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:33:28,172: INFO: common: created directory at: artifacts]
+[2025-07-31 12:33:28,176: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-31 12:33:30,610: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-31 12:33:36,940: ERROR: main: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+Traceback (most recent call last):
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\main.py", line 59, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\src\datascience\components\model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\sklearn\__init__.py", line 426, in log_model
+    return Model.log(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\models\model.py", line 1161, in log
+    model = mlflow.initialize_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2130, in initialize_logged_model
+    model = _create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\fluent.py", line 2257, in _create_logged_model
+    return MlflowClient().create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\client.py", line 5369, in create_logged_model
+    return self._tracking_client.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 824, in create_logged_model
+    return self.store.create_logged_model(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 936, in create_logged_model
+    response_proto = self._call_endpoint(CreateLoggedModel, req_body)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\store\tracking\rest_store.py", line 135, in _call_endpoint
+    return call_endpoint(
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 594, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "D:\Machine_Learning\MLOPS\datascience_endtoend\nvenv\lib\site-packages\mlflow\utils\rest_utils.py", line 308, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}
+[2025-07-31 12:34:42,213: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-07-31 12:34:42,228: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,230: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,237: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,238: INFO: common: created directory at: artifacts]
+[2025-07-31 12:34:42,241: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-31 12:34:42,242: INFO: data_ingestion: File already exists]
+[2025-07-31 12:34:42,244: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:34:42,244: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2025-07-31 12:34:42,264: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,269: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,277: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,279: INFO: common: created directory at: artifacts]
+[2025-07-31 12:34:42,280: INFO: common: created directory at: artifacts/data_validation]
+[2025-07-31 12:34:42,333: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:34:42,333: INFO: main: >>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-07-31 12:34:42,339: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,339: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,344: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,344: INFO: common: created directory at: artifacts]
+[2025-07-31 12:34:42,344: INFO: common: created directory at: artifacts/data_transformation]
+[2025-07-31 12:34:42,383: INFO: data_transformation: Splited data into training and test sets]
+[2025-07-31 12:34:42,387: INFO: data_transformation: (1199, 12)]
+[2025-07-31 12:34:42,387: INFO: data_transformation: (400, 12)]
+[2025-07-31 12:34:42,388: INFO: main: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:34:42,388: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-31 12:34:42,388: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,395: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,403: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,403: INFO: common: created directory at: artifacts]
+[2025-07-31 12:34:42,403: INFO: common: created directory at: artifacts/model_trainer]
+[2025-07-31 12:34:42,482: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:34:42,498: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-31 12:34:42,504: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,507: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,512: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:42,512: INFO: common: created directory at: artifacts]
+[2025-07-31 12:34:42,515: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-31 12:34:45,570: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-31 12:34:50,772: WARNING: model_evaluation: Failed to log model to registry, logged as artifact only: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+[2025-07-31 12:34:51,695: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-31 12:34:51,695: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-31 12:34:51,699: INFO: common: yaml file <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:51,702: INFO: common: yaml file <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:51,705: INFO: common: yaml file <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'>: loaded successfully]
+[2025-07-31 12:34:51,705: INFO: common: created directory at: artifacts]
+[2025-07-31 12:34:51,705: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-07-31 12:34:52,153: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-07-31 12:35:02,459: WARNING: model_evaluation: Failed to log model to registry, logged as artifact only: INTERNAL_ERROR: Response: {'error': 'unsupported endpoint, please contact support@dagshub.com'}]
+[2025-07-31 12:35:04,495: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
